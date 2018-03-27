@@ -5,10 +5,12 @@
 
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/petrepircalabu" name="petrepircalabu"/>
 
   <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="yocto" name="poky" path="sources"/>
   <project remote="yocto" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
   <project remote="yocto" name="meta-virtualization" path="sources/meta-virtualization"/>
+  <project remote="petrepircalabu" name="meta-bdvmi" path="sources/meta-bdvmi"/>
 
 </manifest>
