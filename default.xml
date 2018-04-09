@@ -11,6 +11,6 @@
   <project remote="yocto" name="poky" path="sources"/>
   <project remote="yocto" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
   <project remote="yocto" name="meta-virtualization" path="sources/meta-virtualization"/>
-  <project remote="petrepircalabu" name="meta-bdvmi" path="sources/meta-bdvmi"/>
+  <project remote="petrepircalabu" name="meta-bdvmi" path="sources/meta-bdvmi" revision="master"/>
 
 </manifest>
